@@ -1,0 +1,5 @@
+export * from './contacts'
+export * from './paths'
+export * from './revalidate'
+export * from './slugs'
+export * from './wpContentSlugs'

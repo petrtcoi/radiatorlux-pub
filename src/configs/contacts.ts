@@ -1,0 +1,15 @@
+export const contacts = {
+  phone812String: "(812) 415-82-20",
+  phone812: "+78124158220",
+  phone495String: "(495) 291-40-46",
+  phone495: "+74952914046",
+  whatsAppString: "@RadiatorLux",
+  whatsApp: "79006522658",
+  website: "www.radiatorlux.ru",
+  email: "mail@radiatorlux.ru",
+  emailFrom: "mail@radiatorlux.ru",
+  vk: "lovehomekomfort",
+  telegram: "https://t.me/homekomfort23",
+  emailNotifications: "mail@radiatorlux.ru",
+  homekomfortWebsite: "https://homekomfort.ru",
+};

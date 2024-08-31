@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: http://radiatorlux.ru
+
+# Sitemaps
+Sitemap: http://radiatorlux.ru/sitemap.xml

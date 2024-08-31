@@ -1,0 +1,3 @@
+.thumb {
+  @apply w-4 h-4 bg-blue-60 rounded-full;
+}

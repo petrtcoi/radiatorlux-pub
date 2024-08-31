@@ -1,0 +1,44 @@
+@secret = mustbesaveasenv
+
+
+### Seed the database
+POST http://localhost:3000/api/seed
+content-type: application/json
+
+{
+   "secret": "{{secret}}"
+}
+
+
+### Seed Tubog
+POST http://localhost:3000/api/seed/tubog
+content-type: application/json
+
+{
+   "secret": "{{secret}}"
+}
+
+
+### Seed KZTO RS
+POST http://localhost:3000/api/seed/kzto/rs
+content-type: application/json
+
+{
+   "secret": "{{secret}}"
+}
+
+### Seed KZTO RSK
+POST http://localhost:3000/api/seed/kzto/rsk
+content-type: application/json
+
+{
+   "secret": "{{secret}}"
+}
+
+### Seed Velar Columns
+POST http://localhost:3000/api/seed/velar/columns
+content-type: application/json
+
+{
+   "secret": "{{secret}}"
+}
